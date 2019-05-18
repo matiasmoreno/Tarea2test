@@ -29,6 +29,7 @@ public class Servidor {
         try
         {
             pool = new ThreadPool(5);
+            System.out.println("El puerto escucha es: " + port);
             ss = new ServerSocket(port);//Se crea el socket para el servidor en puerto 11580
             cs = new Socket(); //Socket para el cliente
             nmaq= 2;
