@@ -9,7 +9,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Servidor {
-    private int port = 1238; // Puerto para la conexión del Servidor
+    private int port = 8080; // Puerto para la conexión del Servidor
     private int portm = 1234;
     protected ServerSocket ss; //Socket del servidor
     protected Socket cs; //Socket del cliente
