@@ -45,11 +45,11 @@ public class Maquina {
     public static void main(String[] args) throws IOException
     {
         Maquina maq = new Maquina(); //Se crea el servidor
-        System.out.println("Ingrese numero de puerto\n");
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        int port = Integer.parseInt(reader.readLine());
+        //System.out.println("Ingrese numero de puerto\n");
+        //BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        //int port = Integer.parseInt(reader.readLine());
         System.out.println("Iniciando maquina\n");
-        maq.startMaquina(port); //Se inicia el servidor
+        maq.startMaquina(8080); //Se inicia el servidor
     }
     /*
     public static synchronized void logger(String print) {

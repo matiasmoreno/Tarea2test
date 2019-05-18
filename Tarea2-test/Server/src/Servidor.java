@@ -38,9 +38,9 @@ public class Servidor {
                 portMaquinas.add(portm+i);
             }*/
             ipMaquinas.add("10.6.40.177");
-            portMaquinas.add(1234);
+            portMaquinas.add(8080);
             ipMaquinas.add("10.6.40.178");
-            portMaquinas.add(1234);
+            portMaquinas.add(8080);
             try {
                 FileWriter fw = new FileWriter("./log/log.txt", true);
                 BufferedWriter bw = new BufferedWriter(fw);
