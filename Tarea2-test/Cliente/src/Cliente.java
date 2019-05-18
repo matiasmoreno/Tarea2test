@@ -124,6 +124,7 @@ public class Cliente{
     }
 
     public static void main(String args[]){
-        Cliente cliente = new Cliente("127.0.0.1", 1238);
+        //Cliente cliente = new Cliente("127.0.0.1", 1238);
+        Cliente cliente = new Cliente("10.6.40.177", 1238);
     }
 }

@@ -50,7 +50,7 @@ public class Servidor {
             }
 
             while(serverup) {
-                System.out.println("Servidor sperando a un cliente..."); //Esperando conexión
+                System.out.println("Servidor esperando a un cliente..."); //Esperando conexión
                 cs = ss.accept(); //Accept comienza el socket y espera una conexión desde un cliente
                 if (pool.anadir_thread()){
                     System.out.println("Hay threads disponibles, cliente conectado, asignando thread");
